@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nanoframe"
+version = "0.0.1"
+description = "A minimalist and lightweight Python data processing library."
+readme = "README.md"
+requires-python = ">=3.7"
+license = {text = "MIT"}
+authors = [
+  {name = "BlazeMC404", email = "blazemc404@gmail.com"}
+]
+urls = { 
+  "Homepage" = "https://github.com/BlazeMC404/nanoframe",
+  "Bug Tracker" = "https://github.com/BlazeMC404/nanoframe/issues"
+}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Scientific/Engineering :: Information Analysis"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools]
+include-package-data = true

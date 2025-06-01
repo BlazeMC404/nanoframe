@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+coverage.xml
+.cache
+.pytest_cache/
+nosetests.xml
+test-results.xml
+
+# PyBuilder
+target/
+
+# MyPy, Pyre, Pytype
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files and local outputs
+*.csv
+*.json
+*.log
+*.out
+
+# Docs and site builds
+_site/
+docs/_build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup and swap files
+*.bak
+*.swp
+*.tmp
+*~
+
+# dotenv and secrets
+.env
+.env.*
+*.env
